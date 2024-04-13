@@ -134,7 +134,11 @@ console.log(plist.build(json));
 // </plist>
 ```
 
-## Cross Platform Testing Credits
+## Building
+
+Make sure you've run `npm install`, then you can run `npm run build`.
+
+## Cross-Platform Testing Credits
 
 Much thanks to Sauce Labs for providing free resources that enable cross-browser testing on this project!
 
