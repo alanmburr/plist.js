@@ -3,12 +3,15 @@
   "description": "Apple's property list parser/builder for Node.js and browsers",
   "version": "3.1.0",
   "author": "Nathan Rajlich <nathan@tootallnate.net>",
+  "type": "module",
+  "private": true,
   "contributors": [
     "Hans Huebner <hans.huebner@gmail.com>",
     "Pierre Metrailler",
     "Mike Reinstein <reinstein.mike@gmail.com>",
     "Vladimir Tsvang",
-    "Mathieu D'Amours"
+    "Mathieu D'Amours",
+    "Alan M. Burr <info@alanburr.us.eu.org>"
   ],
   "repository": {
     "type": "git",
@@ -30,9 +33,7 @@
     "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
-    "browserify": "^17.0.0",
-    "mocha": "^10.2.0",
-    "zuul": "3.12.0"
+    "esbuild": "^0.20.2"
   },
   "scripts": {
     "test": "make test"
